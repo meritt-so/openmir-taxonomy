@@ -1,0 +1,186 @@
+{
+  "version": "1.0",
+  "name": "MERITT Intent Reference",
+  "abbreviation": "MIR",
+  "description": "MERITT's original intent classification taxonomy for enterprise AI authority. Covers 14 operational domains with sub-categories for precise intent routing, risk assessment, and compliance mapping.",
+  "domains": [
+    {
+      "code": "MIR-100",
+      "name": "Software Development",
+      "description": "Build, test, deploy, release, and govern code across the software development lifecycle.",
+      "categories": [
+        { "code": "MIR-101", "name": "Code Management", "description": "Source control operations including branching, merging, and repository administration." },
+        { "code": "MIR-102", "name": "Build & CI", "description": "Continuous integration pipelines, build orchestration, and artifact generation." },
+        { "code": "MIR-103", "name": "Testing & QA", "description": "Automated testing, test plan management, quality gates, and regression analysis." },
+        { "code": "MIR-104", "name": "Deployment & Release", "description": "Release management, deployment orchestration, rollback procedures, and environment promotion." },
+        { "code": "MIR-105", "name": "Change Control", "description": "Change advisory processes, impact assessment, deployment policies, and release standards." },
+        { "code": "MIR-106", "name": "Architecture & Design", "description": "Architecture validation, component integration, design review, and technical debt management." },
+        { "code": "MIR-107", "name": "Package & Dependency", "description": "Dependency management, package bundling, vulnerability scanning, and license compliance." }
+      ]
+    },
+    {
+      "code": "MIR-200",
+      "name": "Security Operations",
+      "description": "Detect, respond to, and remediate security threats across the enterprise.",
+      "categories": [
+        { "code": "MIR-201", "name": "Threat Detection", "description": "Intrusion detection, anomaly monitoring, threat intelligence, and alert triage." },
+        { "code": "MIR-202", "name": "Incident Response", "description": "Security breach response, containment, forensic analysis, and recovery procedures." },
+        { "code": "MIR-203", "name": "Vulnerability Management", "description": "Vulnerability scanning, patch management, penetration testing, and remediation tracking." },
+        { "code": "MIR-204", "name": "Identity & Access", "description": "Identity lifecycle, access provisioning, MFA implementation, and privilege management." },
+        { "code": "MIR-205", "name": "Credential Management", "description": "Secret rotation, certificate management, API key lifecycle, and credential vaulting." },
+        { "code": "MIR-206", "name": "Security Policy", "description": "Security policy creation, enforcement, compliance auditing, and framework alignment." },
+        { "code": "MIR-207", "name": "Data Protection", "description": "Data classification, encryption management, DLP controls, and privacy enforcement." }
+      ]
+    },
+    {
+      "code": "MIR-300",
+      "name": "Infrastructure",
+      "description": "Provision, scale, and maintain compute, storage, and network systems.",
+      "categories": [
+        { "code": "MIR-301", "name": "Provisioning", "description": "Infrastructure provisioning, environment setup, and resource allocation." },
+        { "code": "MIR-302", "name": "Scaling & Capacity", "description": "Auto-scaling, capacity planning, load balancing, and performance optimization." },
+        { "code": "MIR-303", "name": "Monitoring & Observability", "description": "System monitoring, alerting, APM, log aggregation, and SLO management." },
+        { "code": "MIR-304", "name": "Disaster Recovery", "description": "Backup management, failover procedures, recovery testing, and continuity planning." },
+        { "code": "MIR-305", "name": "Configuration Management", "description": "Infrastructure-as-code, configuration drift detection, and state management." },
+        { "code": "MIR-306", "name": "Maintenance", "description": "Scheduled maintenance, patching, firmware updates, and lifecycle management." },
+        { "code": "MIR-307", "name": "Network Operations", "description": "Network provisioning, DNS management, firewall rules, and connectivity troubleshooting." }
+      ]
+    },
+    {
+      "code": "MIR-400",
+      "name": "Cloud Operations",
+      "description": "SaaS management, platform operations, multi-cloud governance, and service catalog administration.",
+      "categories": [
+        { "code": "MIR-401", "name": "SaaS Management", "description": "SaaS application lifecycle, license optimization, and usage tracking." },
+        { "code": "MIR-402", "name": "Platform Operations", "description": "Platform health, service mesh management, and runtime governance." },
+        { "code": "MIR-403", "name": "Service Catalog", "description": "Service catalog maintenance, request fulfillment, and service portfolio management." },
+        { "code": "MIR-404", "name": "SLA Management", "description": "SLA definition, monitoring, reporting, and escalation procedures." },
+        { "code": "MIR-405", "name": "Resource Optimization", "description": "Cloud cost optimization, rightsizing, reserved instance management, and waste elimination." },
+        { "code": "MIR-406", "name": "Multi-Cloud Governance", "description": "Cross-cloud policy enforcement, workload placement, and vendor management." }
+      ]
+    },
+    {
+      "code": "MIR-500",
+      "name": "Financial Operations",
+      "description": "Budgets, payments, procurement, treasury, and financial reporting.",
+      "categories": [
+        { "code": "MIR-501", "name": "Accounts Payable", "description": "Invoice processing, payment approval, vendor payments, and disbursement tracking." },
+        { "code": "MIR-502", "name": "Accounts Receivable", "description": "Revenue posting, collections management, credit assessment, and aging analysis." },
+        { "code": "MIR-503", "name": "Billing & Invoicing", "description": "Invoice generation, billing reconciliation, subscription billing, and metering." },
+        { "code": "MIR-504", "name": "Payroll", "description": "Payroll processing, tax withholding, direct deposit management, and pay statement generation." },
+        { "code": "MIR-505", "name": "Treasury & Cash", "description": "Cash management, bank reconciliation, wire transfers, and liquidity forecasting." },
+        { "code": "MIR-506", "name": "Budgeting & Planning", "description": "Budget creation, variance analysis, forecasting, and financial planning." },
+        { "code": "MIR-507", "name": "Procurement", "description": "Purchase requisitions, purchase orders, vendor selection, and spend management." },
+        { "code": "MIR-508", "name": "Tax & Compliance", "description": "Tax calculation, regulatory filing, audit preparation, and compliance reporting." }
+      ]
+    },
+    {
+      "code": "MIR-600",
+      "name": "Supply Chain",
+      "description": "Sourcing, logistics, vendor management, and inventory optimization.",
+      "categories": [
+        { "code": "MIR-601", "name": "Procurement Lifecycle", "description": "Requisition processing, purchase order management, and procurement approvals." },
+        { "code": "MIR-602", "name": "Vendor Management", "description": "Vendor onboarding, performance evaluation, contract negotiation, and relationship management." },
+        { "code": "MIR-603", "name": "Logistics & Fulfillment", "description": "Shipment tracking, warehouse management, delivery scheduling, and returns processing." },
+        { "code": "MIR-604", "name": "Inventory Management", "description": "Stock tracking, reorder management, demand forecasting, and warehouse optimization." },
+        { "code": "MIR-605", "name": "Quality Assurance", "description": "Incoming inspection, supplier quality, non-conformance tracking, and quality metrics." }
+      ]
+    },
+    {
+      "code": "MIR-700",
+      "name": "People Operations",
+      "description": "Hiring, onboarding, workforce management, and employee lifecycle administration.",
+      "categories": [
+        { "code": "MIR-701", "name": "Recruiting", "description": "Job requisitions, candidate screening, interview coordination, and offer management." },
+        { "code": "MIR-702", "name": "Onboarding & Offboarding", "description": "Employee onboarding workflows, access provisioning, exit procedures, and knowledge transfer." },
+        { "code": "MIR-703", "name": "Compensation & Benefits", "description": "Compensation management, benefits administration, equity grants, and total rewards." },
+        { "code": "MIR-704", "name": "Time & Attendance", "description": "Time tracking, leave management, scheduling, and overtime approval." },
+        { "code": "MIR-705", "name": "Performance Management", "description": "Performance reviews, goal setting, feedback collection, and development planning." },
+        { "code": "MIR-706", "name": "Learning & Development", "description": "Training program management, certification tracking, and skill development." }
+      ]
+    },
+    {
+      "code": "MIR-800",
+      "name": "Revenue Operations",
+      "description": "Pipeline management, deal execution, renewals, and revenue intelligence.",
+      "categories": [
+        { "code": "MIR-801", "name": "Pipeline Management", "description": "Lead qualification, opportunity tracking, pipeline forecasting, and deal progression." },
+        { "code": "MIR-802", "name": "Deal Execution", "description": "Proposal generation, pricing execution, contract negotiation, and order processing." },
+        { "code": "MIR-803", "name": "Renewals & Expansion", "description": "Renewal management, upsell identification, expansion revenue, and churn prevention." },
+        { "code": "MIR-804", "name": "Sales Analytics", "description": "Revenue forecasting, win/loss analysis, territory planning, and performance metrics." },
+        { "code": "MIR-805", "name": "Campaign Operations", "description": "Campaign execution, lead scoring, attribution tracking, and marketing automation." }
+      ]
+    },
+    {
+      "code": "MIR-900",
+      "name": "Customer Experience",
+      "description": "Support, success, satisfaction measurement, and customer lifecycle management.",
+      "categories": [
+        { "code": "MIR-901", "name": "Support Operations", "description": "Ticket management, escalation handling, knowledge base maintenance, and SLA tracking." },
+        { "code": "MIR-902", "name": "Customer Success", "description": "Health scoring, onboarding assistance, adoption tracking, and retention programs." },
+        { "code": "MIR-903", "name": "Complaint Management", "description": "Complaint intake, resolution tracking, root cause analysis, and service recovery." },
+        { "code": "MIR-904", "name": "Returns & Warranty", "description": "Returns authorization, warranty claim processing, and product recall management." },
+        { "code": "MIR-905", "name": "Satisfaction Measurement", "description": "NPS surveys, CSAT tracking, feedback analysis, and experience improvement." }
+      ]
+    },
+    {
+      "code": "MIR-1000",
+      "name": "Enterprise Operations",
+      "description": "Strategy, planning, governance, and cross-functional operational management.",
+      "categories": [
+        { "code": "MIR-1001", "name": "Project Management", "description": "Project execution, resource allocation, milestone tracking, and stakeholder reporting." },
+        { "code": "MIR-1002", "name": "Quality Management", "description": "Quality testing, process improvement, Six Sigma initiatives, and defect tracking." },
+        { "code": "MIR-1003", "name": "Change Management", "description": "Organizational change programs, communication planning, and adoption measurement." },
+        { "code": "MIR-1004", "name": "Knowledge Management", "description": "Content publishing, documentation governance, and institutional knowledge capture." },
+        { "code": "MIR-1005", "name": "Analytics & Reporting", "description": "Business intelligence, operational dashboards, performance benchmarking, and data analysis." },
+        { "code": "MIR-1006", "name": "Strategic Planning", "description": "Portfolio governance, strategic initiatives, OKR management, and investment planning." }
+      ]
+    },
+    {
+      "code": "MIR-1100",
+      "name": "Service Delivery",
+      "description": "Fulfillment, SLA adherence, quality assurance, and service operations management.",
+      "categories": [
+        { "code": "MIR-1101", "name": "Resource Planning", "description": "Workforce planning, capacity allocation, and resource scheduling for service delivery." },
+        { "code": "MIR-1102", "name": "Service Execution", "description": "Service fulfillment, work order management, and delivery milestone tracking." },
+        { "code": "MIR-1103", "name": "Completion Management", "description": "Service closure, acceptance verification, and post-delivery review." },
+        { "code": "MIR-1104", "name": "SLA Compliance", "description": "SLA monitoring, performance reporting, penalty management, and continuous improvement." }
+      ]
+    },
+    {
+      "code": "MIR-1200",
+      "name": "Risk Management",
+      "description": "Assessment, mitigation, compliance, and enterprise risk governance.",
+      "categories": [
+        { "code": "MIR-1201", "name": "Risk Assessment", "description": "Risk identification, probability analysis, impact scoring, and risk register management." },
+        { "code": "MIR-1202", "name": "Risk Mitigation", "description": "Control implementation, risk treatment plans, and residual risk monitoring." },
+        { "code": "MIR-1203", "name": "Compliance Management", "description": "Regulatory compliance tracking, audit management, control testing, and attestation." },
+        { "code": "MIR-1204", "name": "Business Continuity", "description": "Continuity planning, scenario testing, crisis management, and recovery coordination." },
+        { "code": "MIR-1205", "name": "Contract & Legal", "description": "Contract lifecycle management, IP protection, legal hold, and regulatory filing." }
+      ]
+    },
+    {
+      "code": "MIR-1300",
+      "name": "Product Operations",
+      "description": "Roadmap management, product discovery, launch coordination, and product lifecycle governance.",
+      "categories": [
+        { "code": "MIR-1301", "name": "Product Lifecycle", "description": "Product development stages, lifecycle tracking, and end-of-life management." },
+        { "code": "MIR-1302", "name": "Master Data Management", "description": "Product data governance, catalog management, and data quality assurance." },
+        { "code": "MIR-1303", "name": "Regulatory Submissions", "description": "Product regulatory filings, certification tracking, and compliance documentation." },
+        { "code": "MIR-1304", "name": "Discovery & Research", "description": "Market research, user research, prototype management, and experiment tracking." }
+      ]
+    },
+    {
+      "code": "MIR-1400",
+      "name": "Asset Management",
+      "description": "Inventory tracking, lifecycle management, maintenance scheduling, and asset disposal.",
+      "categories": [
+        { "code": "MIR-1401", "name": "Maintenance Scheduling", "description": "Preventive maintenance planning, work order generation, and maintenance windows." },
+        { "code": "MIR-1402", "name": "Maintenance Execution", "description": "Maintenance task completion, parts management, and technician coordination." },
+        { "code": "MIR-1403", "name": "Decommissioning", "description": "Asset retirement, secure disposal, data wiping, and environmental compliance." },
+        { "code": "MIR-1404", "name": "Facility Management", "description": "Workspace management, access control systems, environmental monitoring, and space planning." },
+        { "code": "MIR-1405", "name": "Asset Tracking", "description": "Asset inventory, location tracking, depreciation management, and audit reconciliation." }
+      ]
+    }
+  ]
+}
