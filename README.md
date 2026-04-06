@@ -1,8 +1,10 @@
 # @meritt/mir-taxonomy
 
-**MERITT Intent Reference (MIR)** -- the open taxonomy for classifying AI agent actions across 14 enterprise domains.
+**OpenMIR (Meritt Intent Reference)** -- the open taxonomy for classifying AI agent actions across 14 enterprise domains.
 
-MIR provides a universal language for describing what AI agents do. Every action an AI agent takes -- deploying code, processing invoices, escalating tickets -- maps to a MIR category. This enables consistent authorization, auditing, and policy enforcement across any AI agent platform.
+Canonical repository: https://github.com/meritt-so/openmir-taxonomy
+
+OpenMIR provides a universal language for describing what AI agents do. Every action an AI agent takes -- deploying code, processing invoices, escalating tickets -- maps to a MIR category. This enables consistent authorization, auditing, and policy enforcement across any AI agent platform.
 
 ## The 14 MIR Domains
 
@@ -66,20 +68,20 @@ for (const domain of mir.domains) {
 }
 ```
 
-## Why MIR?
+## Why OpenMIR?
 
 AI agents are taking actions across every enterprise domain -- from deploying code to processing payments to managing infrastructure. Without a shared taxonomy, every organization invents its own classification, making cross-system policy enforcement and auditing impossible.
 
-MIR provides:
+OpenMIR provides:
 
 - **Universal classification** -- A common language for AI agent actions across all enterprise domains
 - **Policy anchoring** -- Authorization rules reference MIR codes, not brittle action strings
 - **Audit consistency** -- Every decision log entry maps to a stable MIR category
 - **Cross-platform interoperability** -- Different AI agent frameworks can share MIR classifications
 
-## Used by MERITT
+## Reference Implementation
 
-MIR is the intent classification backbone of [MERITT](https://meritt.so) -- The Authority Runtime for AI Agents. MERITT uses MIR to classify every AI agent action, enforce authorization policies, and produce cryptographic proof of every decision.
+OpenMIR is used by the MERITT authority runtime reference implementation for intent classification, authorization policy routing, and audit evidence anchoring.
 
 ## License
 
