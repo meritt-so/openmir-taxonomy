@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "name": "MERITT Intent Reference",
+  "name": "OpenMIR (Meritt Intent Reference)",
   "abbreviation": "MIR",
-  "description": "MERITT's original intent classification taxonomy for enterprise AI authority. Covers 14 operational domains with sub-categories for precise intent routing, risk assessment, and compliance mapping.",
+  "description": "OpenMIR's canonical intent classification taxonomy for enterprise AI authority. Covers 14 operational domains with sub-categories for precise intent routing, risk assessment, and compliance mapping.",
   "domains": [
     {
       "code": "MIR-100",
