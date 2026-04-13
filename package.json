@@ -1,0 +1,10 @@
+{
+  "name": "@intended/open-intent-layer",
+  "version": "1.0.0",
+  "description": "Open Intent Layer — Open taxonomy for classifying AI agent actions across 14 enterprise domains",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": { "build": "tsc" },
+  "license": "Apache-2.0",
+  "repository": { "type": "git", "url": "https://github.com/intended-so/open-intent-layer.git" }
+}
